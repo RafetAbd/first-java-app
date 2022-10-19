@@ -29,7 +29,30 @@ public class Main {
         car1.make = "Ford";
         car1.type = "Edge";
         car1.color = "Black";
-        car1.displayDetails();
+//        car1.displayDetails();
+
+        Cars car2 = new Cars();
+        car2.color = "red";
+        car2.make = "Honda";
+        car2.type = "CRV";
+//        car2.displayDetails();
+
+        Employee p1 = new Employee();
+        Employee p2 = new Employee();
+
+        p1.name = "Kevin";
+        p1.ID = "43tgfw4";
+        p1.salary = 85000.0;
+
+        p2.name = "Zack";
+        p2.ID = "iu435";
+        p2.salary = 96000.3;
+
+        p1.employeeBonus();
+        p2.employeeBonus();
+
+
+
 
     }
 }
