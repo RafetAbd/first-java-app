@@ -48,11 +48,13 @@ public class Main {
         p2.ID = "iu435";
         p2.salary = 96000.3;
 
-        p1.employeeBonus();
-        p2.employeeBonus();
+//        p1.employeeBonus();
+//        p2.employeeBonus();
 
-
-
+        Spare r = new Spare();
+        System.out.println(r.multiply( 2, 5 ));;
+        System.out.println(r.multiply( 2.3, 5.1 ));;
+        System.out.println(r.multiply( 2.3, 5.1,4 ));;
 
     }
 }
