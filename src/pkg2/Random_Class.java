@@ -2,6 +2,7 @@ package pkg2;
 
 import java.sql.SQLOutput;
 import java.util.Random;
+import java.util.UUID;
 
 public class Random_Class {
 
@@ -16,6 +17,8 @@ public class Random_Class {
         System.out.println(r1.nextInt(9000) + 1000);
         // or
         System.out.println((int)(Math.random() * 9000 ) + 1000 );
+        // for generating a unique Id, we use UUID.randomUUID()
+        System.out.println(UUID.randomUUID());
 
     }
 
