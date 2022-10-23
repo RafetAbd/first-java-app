@@ -15,6 +15,18 @@ public class Arrays {
             System.out.println(DaysOfWeek[i]);
         }
 
+        // another way to declare an array
+        int [] array1 = new int[5];
+        array1[1] = 2;
+        array1[2] = 4;
+        array1[3] = 6;
+        array1[4] = 8;
+        array1[0] = 10;
+
+        System.out.println(array1[2]);
+
+
+
     }
 
 
